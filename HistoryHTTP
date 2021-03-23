@@ -1,0 +1,20 @@
+HTTP/0.9
+Year of release 1991
+It is extremely simple requests consist of a single line and start with the only possible method GET followed by the path to the resource.
+There were no status or error messages.
+HTTP/1.0
+Year of release is 1996
+Version information is now sent within each request.
+A status code is also sent at the beginning of the response.
+The HTTP headers has been introduced.
+The transfer of other documents than plain HTML files has been added.
+HTTP/1.1
+Year of release is 1997
+A connection can be reused.
+Pipelining has been added, allowing to send a second request before the answer for the first one is fully transmitted.
+Cache control mechanism have been introduced.
+HTTP/2
+Year of release is 2015
+It is a binary protocol rather than text.
+It is a multiplexed protocol. Parallel requests can be handled over the same connection, removing the order and blocking issues of the HTTTP/1.1 protocol.
+It compresses headers. As these are often similar among a set of requests, this removes duplication and overhead of data transmitted.
